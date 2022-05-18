@@ -21,4 +21,4 @@ node('built-in')
    {
        sh 'scp /home/ubuntu/.jenkins/workspace/scpp/webapp/target/webapp.war ubuntu@172.31.18.68:/var/lib/tomcat9/webapps/prod.war'
    }
-
+}
